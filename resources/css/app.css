@@ -1,3 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.property-main {
+    padding-top: 0;
+}
+
+.property-form .el-input-number {
+    width: 100%;
+}
+
+.property-form .el-slider {
+    padding-inline: 0.75rem;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
